@@ -52,10 +52,9 @@
 		B6DD37562610B59400D88260 /* Koneksa */ = {
 			isa = PBXGroup;
 			children = (
-				B6DD37572610B59400D88260 /* KoneksaApp.swift */,
-				B6DD37592610B59400D88260 /* ContentView.swift */,
-				B6DD375B2610B59500D88260 /* Assets.xcassets */,
-				B6DD37602610B59500D88260 /* Info.plist */,
+				B6DD37682610B5AC00D88260 /* Application */,
+				B6DD376A2610B5B100D88260 /* View */,
+				B6DD37672610B5A400D88260 /* Resources */,
 				B6DD375D2610B59500D88260 /* Preview Content */,
 			);
 			path = Koneksa;
@@ -67,6 +66,31 @@
 				B6DD375E2610B59500D88260 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6DD37672610B5A400D88260 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6DD375B2610B59500D88260 /* Assets.xcassets */,
+				B6DD37602610B59500D88260 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B6DD37682610B5AC00D88260 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B6DD37572610B59400D88260 /* KoneksaApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B6DD376A2610B5B100D88260 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6DD37592610B59400D88260 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +295,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Koneksa/Preview Content\"";
 				DEVELOPMENT_TEAM = 4939K9623X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Koneksa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Koneksa/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,8 +317,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Koneksa/Preview Content\"";
 				DEVELOPMENT_TEAM = 4939K9623X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Koneksa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Koneksa/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
