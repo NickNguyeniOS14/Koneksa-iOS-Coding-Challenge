@@ -55,7 +55,7 @@ struct ContentView: View {
 
     // MARK: - Action
 
-    func startAccelerometers() {
+    private func startAccelerometers() {
 
         var accelerometerData = [String]()
 
@@ -84,7 +84,7 @@ struct ContentView: View {
                         y = data.acceleration.y
                         z = data.acceleration.z
 
-                        let stringData = "X: \(x),Y: \(y),Z:\(z)"
+                        let stringData = "X: \(x),Y: \(y),Z: \(z)"
 
                         accelerometerData.append(stringData)
 
