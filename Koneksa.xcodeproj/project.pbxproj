@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B6216F5C2610E178003A72A1 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6216F5B2610E178003A72A1 /* PersistenceManager.swift */; };
+		B699BBFF266184120032B01B /* AccelerometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B699BBFE266184120032B01B /* AccelerometerManager.swift */; };
 		B6DD37582610B59400D88260 /* KoneksaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD37572610B59400D88260 /* KoneksaApp.swift */; };
 		B6DD375A2610B59400D88260 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD37592610B59400D88260 /* ContentView.swift */; };
 		B6DD375C2610B59500D88260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DD375B2610B59500D88260 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		B6216F5B2610E178003A72A1 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		B699BBFE266184120032B01B /* AccelerometerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerManager.swift; sourceTree = "<group>"; };
 		B6DD37542610B59400D88260 /* Koneksa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koneksa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DD37572610B59400D88260 /* KoneksaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoneksaApp.swift; sourceTree = "<group>"; };
 		B6DD37592610B59400D88260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 			path = Persister;
 			sourceTree = "<group>";
 		};
+		B699BBFD266183FF0032B01B /* AccelerometerManager */ = {
+			isa = PBXGroup;
+			children = (
+				B699BBFE266184120032B01B /* AccelerometerManager.swift */,
+			);
+			path = AccelerometerManager;
+			sourceTree = "<group>";
+		};
 		B6DD374B2610B59400D88260 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		B6DD37562610B59400D88260 /* Koneksa */ = {
 			isa = PBXGroup;
 			children = (
+				B699BBFD266183FF0032B01B /* AccelerometerManager */,
 				B6DD37682610B5AC00D88260 /* Application */,
 				B6DD376A2610B5B100D88260 /* View */,
 				B6DD37672610B5A400D88260 /* Resources */,
@@ -176,6 +187,7 @@
 				B6216F5C2610E178003A72A1 /* PersistenceManager.swift in Sources */,
 				B6DD375A2610B59400D88260 /* ContentView.swift in Sources */,
 				B6DD37582610B59400D88260 /* KoneksaApp.swift in Sources */,
+				B699BBFF266184120032B01B /* AccelerometerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
